@@ -1,8 +1,8 @@
 package utils
 
 import (
-	"os"
 	"bufio"
+	"os"
 )
 
 func GetFileLines(path string) (<-chan string, error) {
