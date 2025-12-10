@@ -1,7 +1,10 @@
 package main
 
-import "github.com/nishan-soni/advent2025/day1"
+import (
+	_ "github.com/nishan-soni/advent2025/day1"
+	"github.com/nishan-soni/advent2025/day2"
+)
 
 func main() {
-    day1.Solve()
+	day2.Solve()
 }
